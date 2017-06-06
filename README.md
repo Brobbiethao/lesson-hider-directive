@@ -155,7 +155,7 @@ So let's give our new `scope:` object a key-value pair with the key being `lesso
 that we plan on having an attribute named `lesson` on our \<lesson-hider> directive and we want to create a two way data binding between our directive and the parent controller on whatever
 value is passed to that attribute. To demonstrate this two way binding we first need to pass our directive a `lesson` attribute and give that attribute a value.
 
-In our `lessonCtrl` let's create a new property on the `$scope` and call it 'test', we will give this a value of `'Two-way data binding!'`. Now let's add `{{
+In our `lessonCtrl` let's create a new property on the `$scope` and call it 'test', we will give this a value of `'Two-way-data-binding!'`. Now let's add `{{
   test }}` to a new `<div>` inside our index.html. You should see your page update with 'Two way data binding!'. To get this to display inside of our directive
   as well, we need to add an attribute to our directive inside our index.html. So let's add the `lesson` attribute to our directive and pass it the value
   `'test'`. If you don't remember how to do this, look back to the previous section when you used the `my-test` attribute.
@@ -331,4 +331,3 @@ prohibited. Excerpts and links may be used, provided that full and clear credit 
 content.
 
 <img src="https://devmounta.in/img/logowhiteblue.png" width="250">
-
